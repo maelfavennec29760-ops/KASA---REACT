@@ -1,0 +1,27 @@
+.header {
+  margin-top: 45px;
+   width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+  }
+
+  nav {
+    display: flex;
+    gap: 57px;
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 500;
+
+      &.active {
+        text-decoration: underline;
+      }
+    }
+  }
+}
