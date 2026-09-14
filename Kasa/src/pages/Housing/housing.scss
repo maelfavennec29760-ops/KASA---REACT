@@ -31,28 +31,6 @@
             font-weight: 500;
         }
     }
-
-    .tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 20px;
-
-        .tag {
-            min-width: 115px;
-            height: 25px;
-            padding: 0 15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #FF6060;
-            border-radius: 10px;
-            color: #fff;
-            font-size: 14px;
-            font-weight: 700;
-        }
-    }
-
     .logement-card-content-right {
         display: flex;
         flex-direction: column;
@@ -61,73 +39,6 @@
         margin-left: 40px;
     }
 
-    .host {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .host-name {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-
-        p {
-            margin: 0;
-            font-size: 18px;
-            font-weight: 500;
-            line-height: 1.2;
-            color: #FF6060;
-        }
-    }
-
-    .host img {
-        width: 64px;
-        height: 64px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .rating {
-        display: flex;
-        gap: 6px;
-        margin-top: 20px;
-    }
-
-    .rating-star {
-        width: 24px;
-        height: 24px;
-    }
-}
-
-.carousel {
-    position: relative;
-
-    .carousel-counter {
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        color: white;
-        font-size: 18px;
-        font-weight: 500;
-    }
-
-    .carousel-arrow {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        cursor: pointer;
-        width: 46px;
-    }
-
-    .left {
-        left: 20px;
-    }
-
-    .right {
-        right: 20px;
-    }
 }
 
 .collapse-container {

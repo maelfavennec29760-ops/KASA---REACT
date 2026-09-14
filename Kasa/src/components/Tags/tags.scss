@@ -1,0 +1,20 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+
+    .tag {
+        min-width: 115px;
+        height: 25px;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FF6060;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        }
+    }
