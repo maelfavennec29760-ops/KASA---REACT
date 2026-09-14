@@ -1,0 +1,29 @@
+.carousel {
+    position: relative;
+
+    .carousel-counter {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        width: 46px;
+    }
+
+    .left {
+        left: 20px;
+    }
+
+    .right {
+        right: 20px;
+    }
+}
