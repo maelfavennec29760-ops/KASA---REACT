@@ -1,3 +1,5 @@
+@use '../../styles/variable' as *;
+
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -11,9 +13,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #FF6060;
+        background: $primary-color;
         border-radius: 10px;
-        color: #fff;
+        color: $white;
         font-size: 14px;
         font-weight: 700;
     }

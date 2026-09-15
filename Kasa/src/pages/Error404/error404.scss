@@ -1,3 +1,5 @@
+@use '../../styles/variable' as *;
+
 .error404 {
     display: flex;
     flex-direction: column;
@@ -7,7 +9,7 @@
     h1 {
         margin: 0 50px;
         font-size: 288px;
-        color: #FF6060;
+        color: $primary-color;
         margin-bottom: 100px;
     }
 
@@ -15,7 +17,7 @@
         margin-bottom: 200px;
         font-size: 36px;
         font-weight: 500;
-        color: #FF6060;
+        color: $primary-color;
     }
 
     .mobile-break {
@@ -23,7 +25,7 @@
     }
 
     a {
-        color: #000;
+        color: $black;
         font-size: 18px;
         font-weight: 500;
         text-decoration: underline;

@@ -1,3 +1,5 @@
+@use '../../styles/variable' as *;
+
 .logement-card {
     .img-logement {
         width: 100%;
@@ -22,7 +24,7 @@
             font-size: 30px;
             font-weight: 500;
             line-height: 1.35;
-            color: #FF6060;
+            color: $primary-color;
         }
 
         p {
@@ -52,7 +54,6 @@
 
 @media (max-width: 768px) {
     .logement-card {
-        padding: 0 20px;
 
         .img-logement {
             height: 255px;

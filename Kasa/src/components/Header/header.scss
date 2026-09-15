@@ -1,3 +1,5 @@
+@use '../../styles/variable' as *;
+
 .header {
   margin-top: 45px;
    width: 100%;
@@ -14,7 +16,7 @@
     gap: 57px;
 
     a {
-      color: #000;
+      color: $black;
       text-decoration: none;
       font-size: 24px;
       font-weight: 500;

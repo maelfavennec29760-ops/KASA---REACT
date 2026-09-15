@@ -1,9 +1,11 @@
+@use '../../styles/variable' as *;
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   padding: 50px;
-  background: #f6f6f6;
+  background: $background-light;
   border-radius: 10px;
 }
 
@@ -13,7 +15,7 @@
   .gallery {
     grid-template-columns: 1fr;
     gap: 22px;
-    background-color: white;
+    background-color: $white;
     padding: 0;
   }
 }
