@@ -14,7 +14,12 @@
     p {
         margin-bottom: 200px;
         font-size: 36px;
+        font-weight: 500;
         color: #FF6060;
+    }
+
+    .mobile-break {
+        display: none;
     }
 
     a {
@@ -22,5 +27,33 @@
         font-size: 18px;
         font-weight: 500;
         text-decoration: underline;
+    }
+}
+
+//Responsive mobile 
+
+@media (max-width: 768px) {
+    .error404 {
+        gap: 113px;
+        h1 {
+            font-size: 96px;
+            margin: 0;
+            padding-top: 86px;
+        }
+        p {
+            width: 260px;
+            height: 52px;
+            font-size: 18px;
+            line-height: 143%;
+            margin: 0;
+            
+        }
+        .mobile-break {
+            display: inline;
+        }
+        a {
+            font-size: 14px;
+            padding-bottom: 86px;
+        }
     }
 }

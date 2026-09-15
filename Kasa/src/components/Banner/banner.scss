@@ -28,3 +28,24 @@
         font-weight: 700;
     }
 }
+
+//Reponsive mobile 
+
+@media (max-width: 375px){
+    .banner {
+        width: calc(100% - 40px);
+        height: 111px;
+        justify-content: flex-start;
+        border-radius: 10px;
+
+        &::before {
+            border-radius: 10px;
+        }
+
+        h1 {
+            width: 225px;
+            margin-left: 16px;
+            font-size: 24px;
+        }
+    }
+}

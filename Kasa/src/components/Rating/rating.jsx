@@ -23,4 +23,4 @@ function Rating({ rating }){
     );
 }
 
-export default Rating
+export default Rating;

@@ -25,3 +25,23 @@
     }
   }
 }
+
+//Responsive mobile
+
+@media (max-width: 768px) {
+    .header {
+      margin-top: 20px;
+      .container {
+        img {
+          width: 145px;
+        }
+      }
+      nav {
+        gap: 26px;
+
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+}

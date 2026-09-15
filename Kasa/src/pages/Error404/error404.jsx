@@ -3,9 +3,9 @@ import "./error404.scss"
 
 function Error404() {
     return (
-        <main className='error404'>
+        <main className="error404">
             <h1>404</h1>
-            <p>Oups! la page que vous demandez n'existe pas.</p>
+            <p>Oups! la page que <br className="mobile-break"/> vous demandez n'existe pas.</p>
             <Link to='/'>
                 Retourner sur la page d'acceuil
             </Link>

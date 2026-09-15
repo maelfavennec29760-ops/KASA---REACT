@@ -1,10 +1,23 @@
 .rating {
     display: flex;
-    gap: 6px;
+    gap: 15px;
     margin-top: 20px;
 }
 
 .rating-star {
     width: 24px;
     height: 24px;
+}
+
+//Responsive mobile 
+
+@media (max-width: 768px) {
+    .rating {
+        gap: 5px;
+        order: 1;
+    }
+    .rating-star {
+        width: 13px;
+        height: 13px;
+    }
 }

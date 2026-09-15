@@ -23,3 +23,15 @@
     margin-top: 50px;
   }
 }
+
+//Responsive mobile 
+
+@media (max-width: 768px) {
+  .footer {
+    p {
+      font-size: 12px;
+      width: 133px;
+      margin-top: 15px;
+    }
+  }
+}

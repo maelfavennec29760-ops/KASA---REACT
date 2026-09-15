@@ -27,3 +27,22 @@
         right: 20px;
     }
 }
+
+//Responsive mobile
+
+@media (max-width: 768px) {
+    .carousel {
+        .carousel-counter {
+            display: none;
+        }
+        .carousel-arrow {
+            width: 19px;
+        }
+        .left {
+            left: 6px
+        }
+        .right {
+            right: 6px;
+        }
+    }
+}

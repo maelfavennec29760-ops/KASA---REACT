@@ -24,3 +24,21 @@
         color: #FF6060;
     }
 }
+
+//Responsive mobile 
+
+@media (max-width: 768px) {
+    .host {
+        order: 2;
+
+        img {
+           width: 32px;
+           height: 32px;
+        }
+    }
+    .host-name {
+        p {
+            font-size: 12px;
+        }
+    }
+}

@@ -3,3 +3,11 @@
     flex-direction: column;
     gap: 50px;
 }
+
+//Responsive mobile
+
+@media (max-width: 768px) {
+    .home {
+        gap: 22px;
+    }
+}

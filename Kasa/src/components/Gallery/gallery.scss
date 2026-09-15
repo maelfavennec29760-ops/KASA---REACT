@@ -4,5 +4,16 @@
   gap: 50px;
   padding: 50px;
   background: #f6f6f6;
-  border-radius: 25px;
+  border-radius: 10px;
+}
+
+
+//Responsive mobile
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    background-color: white;
+    padding: 0;
+  }
 }

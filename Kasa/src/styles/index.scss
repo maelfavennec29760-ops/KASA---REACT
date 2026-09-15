@@ -21,3 +21,16 @@ footer {
   margin: 0 auto;
 }
 
+//Responsive mobile
+
+@media (max-width: 768px) {
+  header {
+    margin-bottom: 27px;
+  }
+  .container {
+    width: calc(100% - 40px);
+  }
+  footer {
+    margin-top: 27px;
+  }
+}

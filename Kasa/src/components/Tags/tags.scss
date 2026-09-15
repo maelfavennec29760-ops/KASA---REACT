@@ -16,5 +16,18 @@
         color: #fff;
         font-size: 14px;
         font-weight: 700;
+    }
+}
+
+//Responsive mobile 
+
+@media (max-width: 768px) {
+    .tags {
+        margin-bottom: 20px;
+        .tag {
+            min-width: 84px;
+            font-size: 10px;
+            border-radius: 10px;
         }
     }
+}
